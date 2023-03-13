@@ -1,0 +1,20 @@
+.details .card img{
+    min-height: 250px;
+}
+.details-btns button,.details-btns button:hover{
+    padding: 10px ;
+    background-color: #f0f0f0;
+    color: #000;
+    border: 1px solid #6c757d !important;
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.details-btns .activ{
+    background-color: #6c757d ;
+    color:#Fff
+}
+.details-btns .activ:hover{
+    background-color: #6c757d ;
+    color:#Fff
+}

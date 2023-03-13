@@ -1,0 +1,19 @@
+.searched-input{
+    background: #313131 !important;
+    border-radius: 20px !important;
+    width: 60%!important;
+    margin: auto;
+    color: #fff!important;
+    padding-left: 36px!important;
+}
+.search form{
+    position: relative;
+    padding: 1em 0;
+}
+.search-icon{
+    position: absolute;
+    left: 22%;
+    color: #fff;
+    top: 50%;
+    transform: translate(0 , -50%);
+}
