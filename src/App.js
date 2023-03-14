@@ -7,23 +7,20 @@ import Navs from './components/Navs/Navs';
 import Search from './components/search/Search';
  import Details from './components/Details/Details';
 import Searched from './components/searched/Searched';
-import { AnimatePresence } from 'framer-motion';
-const App = () => {
+ const App = () => {
   const location = useLocation()
   return (
     <div>
     <Navs/>
     <Search/>
     <Category/>
-    <AnimatePresence exitBeforeEnter>
-    <Routes location={location.pathname}>
+     <Routes location={location.pathname}>
  <Route path='/cussine/:type' element={<Cussine/>}/>
 <Route path='/' element={<Home/>}/>
 <Route path='/searched/:search' element={<Searched/>}/>
 <Route path='/details/:id' element={<Details/>}/>
 </Routes>
-    </AnimatePresence>
-
+ 
     </div>
   )
 }

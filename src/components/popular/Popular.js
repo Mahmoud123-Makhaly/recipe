@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
   const Popular = () => {
     const [popular , setpopular] = useState([]);
     const getPopular = async()=>{
-      const api = await fetch(` https://api.spoonacular.com/recipes/random?apiKey=adca3df82aab4a66bbb744c2c16dba9a&number=9&tags=vegetarian`)
+      const api = await fetch(` https://api.spoonacular.com/recipes/random?apiKey=52114d8849f549629705e4f8be43cafd&number=9&tags=vegetarian`)
  
    const data = await api.json();
    setpopular(data.recipes);

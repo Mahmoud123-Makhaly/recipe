@@ -8,7 +8,7 @@ const Details = () => {
   const [details, setDetails] = useState([]);
   const getDetails = async () => {
     const api = await fetch(
-      `https://api.spoonacular.com/recipes/${params.id}/information?apiKey=adca3df82aab4a66bbb744c2c16dba9a`
+      `https://api.spoonacular.com/recipes/${params.id}/information?apiKey=52114d8849f549629705e4f8be43cafd`
     );
     const data = await api.json();
     setDetails(data);

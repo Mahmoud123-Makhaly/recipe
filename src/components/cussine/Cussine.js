@@ -7,7 +7,7 @@ const Cussine = () => {
     const params = useParams()
     console.log(params)
 const getCussine = async(name)=>{
-    const Api = await fetch(`https://api.spoonacular.com/recipes/complexSearch?apiKey=adca3df82aab4a66bbb744c2c16dba9a&cuisine=${name}`)
+    const Api = await fetch(`https://api.spoonacular.com/recipes/complexSearch?apiKey=52114d8849f549629705e4f8be43cafd&cuisine=${name}`)
 const data = await Api.json();
 setCussine(data.results)
 }
